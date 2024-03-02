@@ -1,0 +1,13 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Feb 26, 2024 18:33:32
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+top:top                  	     176(0)	       0(0)	     208(0)	     0(0)	     0(0)	
+ +dut_encodec:encodec    	     60(60)	       0(0)	   108(108)	     0(0)	     0(0)	
+ +apb_master1:apb_master 	     39(39)	       0(0)	     10(10)	     0(0)	     0(0)	
+ +apb_slave1:apb_slave   	     37(37)	       0(0)	     20(20)	     0(0)	     0(0)	
+ +ctrluart:ctrl_uart     	     16(16)	       0(0)	     36(36)	     0(0)	     0(0)	
+ +uarttx_1:uart_tx       	     24(24)	       0(0)	     34(34)	     0(0)	     0(0)	

@@ -1,0 +1,124 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150 
+Compiled: Jun 23 2023.
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from E:/intern/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'E:/intern/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'E:/intern/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 30.4517 seconds.
+	BuildGraph process took 28.4688 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 58.024 MB, end = 2211.67 MB, delta = 2153.64 MB
+	BuildGraph process peak virtual memory usage = 2237.78 MB
+BuildGraph process resident set memory usage: begin = 62.524 MB, end = 2160.36 MB, delta = 2097.83 MB
+	BuildGraph process peak resident set memory usage = 2186.32 MB
+check rr_graph process took 0.726487 seconds.
+	check rr_graph process took 0.515625 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 2426.51 MB, end = 2426.51 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 2485.16 MB
+check rr_graph process resident set memory usage: begin = 2179.72 MB, end = 2124.54 MB, delta = -55.188 MB
+	check rr_graph process peak resident set memory usage = 2325.14 MB
+Generated 6653381 RR nodes and 25233661 RR edges
+This design has 0 global control net(s). See E:/intern/project/periplex_apb/outflow\periplex_apb.route.rpt for details.
+Routing graph took 32.0342 seconds.
+	Routing graph took 29.3438 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 56.716 MB, end = 1995.97 MB, delta = 1939.25 MB
+	Routing graph peak virtual memory usage = 2485.16 MB
+Routing graph resident set memory usage: begin = 61.56 MB, end = 1906.29 MB, delta = 1844.73 MB
+	Routing graph peak resident set memory usage = 2325.14 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1          733               4.73              0.296
+         2          190              4.701              0.226
+         3           83              4.701              0.209
+         4           23              4.701              0.296
+         5            9              4.706              0.202
+         6           11              4.701              0.162
+         7            3              4.701              0.164
+         8            3              4.701              0.167
+         9            0              4.701              0.177
+
+Successfully routed netlist after 9 routing iterations and 722980 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 1681741118
+Netlist fully routed.
+
+Successfully created FPGA route file 'E:/intern/project/periplex_apb/outflow/periplex_apb.route'
+Routing took 3.33486 seconds.
+	Routing took 2.46875 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 1995.97 MB, end = 2044.13 MB, delta = 48.164 MB
+	Routing peak virtual memory usage = 2563.3 MB
+Routing resident set memory usage: begin = 1906.35 MB, end = 1956.4 MB, delta = 50.048 MB
+	Routing peak resident set memory usage = 2336.2 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+  clock_w       4.821        207.426         (R-R)
+
+Geomean max period: 4.821
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+    clock_w          clock_w           1.000            -3.821           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+    clock_w          clock_w           0.000            0.307            (R-R)
+
+WARNING(1): Clock domain between clock_w (rising) and clock_w (rising) may not meet (slack: -3.821 ns) the setup (max) timing requirement
+
+Write Timing Report to "E:/intern/project/periplex_apb/outflow\periplex_apb.timing.rpt" ...
+final timing analysis took 0.242143 seconds.
+	final timing analysis took 0.109375 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 2018.74 MB, end = 2019.42 MB, delta = 0.68 MB
+	final timing analysis peak virtual memory usage = 2563.3 MB
+final timing analysis resident set memory usage: begin = 1934.38 MB, end = 1935.85 MB, delta = 1.476 MB
+	final timing analysis peak resident set memory usage = 2336.2 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Finished writing bitstream file E:/intern/project/periplex_apb/work_pnr\periplex_apb.lbf.
+Bitstream generation took 3.74421 seconds.
+	Bitstream generation took 3.0625 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 2019.42 MB, end = 2276.86 MB, delta = 257.444 MB
+	Bitstream generation peak virtual memory usage = 2563.3 MB
+Bitstream generation resident set memory usage: begin = 1935.88 MB, end = 2191.74 MB, delta = 255.864 MB
+	Bitstream generation peak resident set memory usage = 2336.2 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 52.0815 seconds.
+	The entire flow of EFX_PNR took 43.4531 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.552 MB, end = 261.724 MB, delta = 256.172 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 2563.3 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 12.564 MB, end = 231.808 MB, delta = 219.244 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 2336.2 MB

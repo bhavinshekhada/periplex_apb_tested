@@ -1,0 +1,14 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 18:33:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'preset_n' on this module (VERI-1010) (E:\intern\project\periplex_apb\top.v:103)
+[EFX-0021 ERROR] Verific elaboration of module 'top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 18:33:31
+///////////////////////////////////
+

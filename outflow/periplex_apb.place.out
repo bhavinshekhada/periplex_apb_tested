@@ -1,0 +1,223 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150 
+Compiled: Jun 23 2023.
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "E:/intern/project/periplex_apb/outflow/periplex_apb.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0050724 seconds.
+	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 15.576 MB, end = 15.58 MB, delta = 0.004 MB
+	VDB Netlist Checker peak virtual memory usage = 54.784 MB
+VDB Netlist Checker resident set memory usage: begin = 27.152 MB, end = 27.404 MB, delta = 0.252 MB
+	VDB Netlist Checker peak resident set memory usage = 65.856 MB
+***** Ending VDB Netlist Checker ... *****
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #3(i_Data_Frame[46]) has no fanout.
+Removing input.
+logical_block #4(i_Data_Frame[45]) has no fanout.
+Removing input.
+logical_block #5(i_Data_Frame[44]) has no fanout.
+Removing input.
+logical_block #6(i_Data_Frame[43]) has no fanout.
+Removing input.
+logical_block #7(i_Data_Frame[42]) has no fanout.
+Removing input.
+logical_block #8(i_Data_Frame[41]) has no fanout.
+Removing input.
+Pass 0: Swept away 6 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 6 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 6 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "E:/intern/project/periplex_apb/outflow/periplex_apb.vdb".
+Netlist pre-processing took 0.0180387 seconds.
+	Netlist pre-processing took 0 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 15.576 MB, end = 15.824 MB, delta = 0.248 MB
+	Netlist pre-processing peak virtual memory usage = 54.784 MB
+Netlist pre-processing resident set memory usage: begin = 26.924 MB, end = 27.572 MB, delta = 0.648 MB
+	Netlist pre-processing peak resident set memory usage = 65.856 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "E:/intern/project/periplex_apb/work_pnr\periplex_apb.net_proto" took 0.001 seconds
+Creating IO constraints file 'E:/intern/project/periplex_apb/work_pnr\periplex_apb.io_place'
+Packing took 0.0049903 seconds.
+	Packing took 0.015625 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 31.132 MB, end = 31.132 MB, delta = 0 MB
+	Packing peak virtual memory usage = 54.784 MB
+Packing resident set memory usage: begin = 42.804 MB, end = 43.048 MB, delta = 0.244 MB
+	Packing peak resident set memory usage = 65.856 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file E:/intern/project/periplex_apb/work_pnr\periplex_apb.net_proto
+Read proto netlist for file "E:/intern/project/periplex_apb/work_pnr\periplex_apb.net_proto" took 0.013 seconds
+Setup net and block data structure took 0.011 seconds
+Packed netlist loading took 0.0353518 seconds.
+	Packed netlist loading took 0 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 31.132 MB, end = 34.568 MB, delta = 3.436 MB
+	Packed netlist loading peak virtual memory usage = 73.752 MB
+Packed netlist loading resident set memory usage: begin = 43.052 MB, end = 46.56 MB, delta = 3.508 MB
+	Packed netlist loading peak resident set memory usage = 85.608 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+***** Beginning stage initial placement ... *****
+
+Reading placement constraints from 'E:/intern/project/periplex_apb/work_pnr\periplex_apb.io_place'.
+WARNING(1): clock_w has no assigned placement; it will be placed randomly.
+WARNING(2): f_empty has no assigned placement; it will be placed randomly.
+WARNING(3): i_Data_Frame[47] has no assigned placement; it will be placed randomly.
+WARNING(4): i_Data_Frame[40] has no assigned placement; it will be placed randomly.
+WARNING(5): i_Data_Frame[39] has no assigned placement; it will be placed randomly.
+WARNING(6): i_Data_Frame[38] has no assigned placement; it will be placed randomly.
+WARNING(7): i_Data_Frame[37] has no assigned placement; it will be placed randomly.
+WARNING(8): i_Data_Frame[36] has no assigned placement; it will be placed randomly.
+WARNING(9): i_Data_Frame[35] has no assigned placement; it will be placed randomly.
+WARNING(10): i_Data_Frame[34] has no assigned placement; it will be placed randomly.
+WARNING(11): i_Data_Frame[33] has no assigned placement; it will be placed randomly.
+WARNING(12): i_Data_Frame[32] has no assigned placement; it will be placed randomly.
+WARNING(13): i_Data_Frame[31] has no assigned placement; it will be placed randomly.
+WARNING(14): i_Data_Frame[30] has no assigned placement; it will be placed randomly.
+WARNING(15): i_Data_Frame[29] has no assigned placement; it will be placed randomly.
+WARNING(16): i_Data_Frame[28] has no assigned placement; it will be placed randomly.
+WARNING(17): i_Data_Frame[27] has no assigned placement; it will be placed randomly.
+WARNING(18): i_Data_Frame[26] has no assigned placement; it will be placed randomly.
+WARNING(19): i_Data_Frame[25] has no assigned placement; it will be placed randomly.
+WARNING(20): i_Data_Frame[24] has no assigned placement; it will be placed randomly.
+WARNING(21): i_Data_Frame[23] has no assigned placement; it will be placed randomly.
+WARNING(22): i_Data_Frame[22] has no assigned placement; it will be placed randomly.
+WARNING(23): i_Data_Frame[21] has no assigned placement; it will be placed randomly.
+WARNING(24): i_Data_Frame[20] has no assigned placement; it will be placed randomly.
+WARNING(25): i_Data_Frame[19] has no assigned placement; it will be placed randomly.
+WARNING(26): i_Data_Frame[18] has no assigned placement; it will be placed randomly.
+WARNING(27): i_Data_Frame[17] has no assigned placement; it will be placed randomly.
+WARNING(28): i_Data_Frame[16] has no assigned placement; it will be placed randomly.
+WARNING(29): i_Data_Frame[15] has no assigned placement; it will be placed randomly.
+WARNING(30): i_Data_Frame[14] has no assigned placement; it will be placed randomly.
+WARNING(31): i_Data_Frame[13] has no assigned placement; it will be placed randomly.
+WARNING(32): i_Data_Frame[12] has no assigned placement; it will be placed randomly.
+WARNING(33): i_Data_Frame[11] has no assigned placement; it will be placed randomly.
+WARNING(34): i_Data_Frame[10] has no assigned placement; it will be placed randomly.
+WARNING(35): i_Data_Frame[9] has no assigned placement; it will be placed randomly.
+WARNING(36): i_Data_Frame[8] has no assigned placement; it will be placed randomly.
+WARNING(37): i_Data_Frame[7] has no assigned placement; it will be placed randomly.
+WARNING(38): i_Data_Frame[6] has no assigned placement; it will be placed randomly.
+WARNING(39): i_Data_Frame[5] has no assigned placement; it will be placed randomly.
+WARNING(40): i_Data_Frame[4] has no assigned placement; it will be placed randomly.
+WARNING(41): i_Data_Frame[3] has no assigned placement; it will be placed randomly.
+WARNING(42): i_Data_Frame[2] has no assigned placement; it will be placed randomly.
+WARNING(43): i_Data_Frame[1] has no assigned placement; it will be placed randomly.
+WARNING(44): i_Data_Frame[0] has no assigned placement; it will be placed randomly.
+WARNING(45): o_read_en has no assigned placement; it will be placed randomly.
+WARNING(46): o_Tx_Active has no assigned placement; it will be placed randomly.
+WARNING(47): o_Tx_Serial has no assigned placement; it will be placed randomly.
+WARNING(48): o_Tx_Done has no assigned placement; it will be placed randomly.
+48 IOs will have random placement.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Create E:/intern/project/periplex_apb/outflow\periplex_apb_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+NumRegions 1
+Starting Global Placer with 4 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1        3991           -1534        51.4%
+          2        3268            -930        65.0%
+          3        2882           -1331        72.1%
+          4        2701            -808        76.2%
+          5        2473           -1397        80.0%
+          6        2391           -1811        83.1%
+          7        2577           -1958        86.7%
+          8        2392           -2560        91.6%
+          9        2450           -3742        94.5%
+         10        2336           -4410        97.3%
+         11        2307           -4241        98.4%
+         12        2292           -4338        99.3%
+         13        2332           -5080        99.9%
+         14        2339           -5555        99.9%
+         15        2392           -5237        99.9%
+         16        2356           -5702       100.0%
+         17        2369           -5702       100.0%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0        2307            5946        30.0
+          1        2130            5729        30.0
+          2        2091            5182        30.0
+          3        1979            4821        29.9
+          4        1987            4760        28.9
+          5        1976            4759        27.4
+          6        1939            4541        25.8
+          7        1946            4535        24.2
+          8        1909            4480        22.4
+          9        1925            4480        20.9
+         10        1915            4480        19.4
+         11        1904            4480        18.0
+         12        1877            4480        16.6
+         13        1861            4480        15.5
+         14        1851            4481        14.4
+         15        1838            4481        13.3
+         16        1820            4481        12.4
+         17        1790            4481        11.5
+         18        1769            4481        10.7
+         19        1759            4480        10.0
+         20        1755            4480         9.2
+         21        1752            4330         8.6
+         22        1786            4330         8.0
+         23        1781            4298         7.5
+         24        1758            4298         7.0
+         25        1747            4298         6.5
+         26        1729            4298         6.1
+         27        1730            4298         5.7
+         28        1724            4298         5.3
+         29        1727            4298         4.9
+         30        1718            4298         4.6
+         31        1711            4298         4.2
+         32        1692            4298         3.8
+Generate E:/intern/project/periplex_apb/outflow\periplex_apb_after_qp.qdelay
+Placement successful: 293 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.00742725 at 195,180
+Congestion-weighted HPWL per net: 3.74952
+
+Reading placement constraints from 'E:/intern/project/periplex_apb/outflow/periplex_apb.qplace'.
+Finished Realigning Types (83 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'E:/intern/project/periplex_apb/outflow/periplex_apb.place'
+Placement took 5.26771 seconds.
+	Placement took 3.5 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 40.344 MB, end = 56.716 MB, delta = 16.372 MB
+	Placement peak virtual memory usage = 378.616 MB
+Placement resident set memory usage: begin = 52.94 MB, end = 61.56 MB, delta = 8.62 MB
+	Placement peak resident set memory usage = 380.328 MB
+***** Ending stage placement *****
+

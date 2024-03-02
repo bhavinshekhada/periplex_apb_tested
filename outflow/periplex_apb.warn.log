@@ -1,0 +1,75 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 18:33:04
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (E:\intern\project\periplex_apb\uarttx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (E:\intern\project\periplex_apb\uarttx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (E:\intern\project\periplex_apb\uarttx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (E:\intern\project\periplex_apb\uarttx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (E:\intern\project\periplex_apb\uarttx.v:15)
+[EFX-0011 VERI-WARNING] data object 'mm' is already declared (VERI-2170) (E:\intern\project\periplex_apb\top.v:61)
+[EFX-0011 VERI-WARNING] second declaration of 'mm' is ignored (VERI-1329) (E:\intern\project\periplex_apb\top.v:61)
+[EFX-0011 VERI-WARNING] 'mm' was previously declared with a range (VERI-1204) (E:\intern\project\periplex_apb\top.v:61)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 18:33:31
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (E:\intern\project\periplex_apb\uarttx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (E:\intern\project\periplex_apb\uarttx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (E:\intern\project\periplex_apb\uarttx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (E:\intern\project\periplex_apb\uarttx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (E:\intern\project\periplex_apb\uarttx.v:15)
+[EFX-0011 VERI-WARNING] data object 'mm' is already declared (VERI-2170) (E:\intern\project\periplex_apb\top.v:61)
+[EFX-0011 VERI-WARNING] second declaration of 'mm' is ignored (VERI-1329) (E:\intern\project\periplex_apb\top.v:61)
+[EFX-0011 VERI-WARNING] 'mm' was previously declared with a range (VERI-1204) (E:\intern\project\periplex_apb\top.v:61)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\intern\project\periplex_apb\encodec.v:135)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\intern\project\periplex_apb\encodec.v:190)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (E:\intern\project\periplex_apb\apbslave.v:59)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (E:\intern\project\periplex_apb\ctrl_uart.v:59)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (E:\intern\project\periplex_apb\ctrl_uart.v:82)
+[EFX-0011 VERI-WARNING] expression size 3 truncated to fit in target size 2 (VERI-1209) (E:\intern\project\periplex_apb\ctrl_uart.v:105)
+[EFX-0011 VERI-WARNING] expression size 12 truncated to fit in target size 11 (VERI-1209) (E:\intern\project\periplex_apb\uarttx.v:47)
+[EFX-0011 VERI-WARNING] expression size 12 truncated to fit in target size 11 (VERI-1209) (E:\intern\project\periplex_apb\uarttx.v:62)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (E:\intern\project\periplex_apb\uarttx.v:71)
+[EFX-0011 VERI-WARNING] expression size 12 truncated to fit in target size 11 (VERI-1209) (E:\intern\project\periplex_apb\uarttx.v:88)
+[EFX-0011 VERI-WARNING] input port 'slv_prdata[31]' remains unconnected for this instance (VDB-1053) (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0200 WARNING] Removing redundant signal : paddr[31]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[30]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[29]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[28]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[27]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[26]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[25]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[24]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[23]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[22]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[21]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[20]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[19]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[18]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[17]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[16]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[15]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[14]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[13]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[12]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[31]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[30]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[29]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[28]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[27]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[26]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[25]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[24]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[23]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[22]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Data_Frame[46] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Data_Frame[45] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Data_Frame[44] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Data_Frame[43] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Data_Frame[42] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Data_Frame[41] is unconnected and will be removed 

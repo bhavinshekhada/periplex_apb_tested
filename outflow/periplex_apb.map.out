@@ -1,0 +1,205 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.1.150
+[EFX-0000 INFO] Compiled: Jun 23 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+-- Analyzing Verilog file 'E:/intern/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "E:/intern/project/periplex_apb/periplex_apb.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "E:/intern/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'E:/intern/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'E:/intern/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\periplex_apb\encodec.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\periplex_apb\apbmaster.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\periplex_apb\apbslave.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\periplex_apb\ctrl_uart.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\periplex_apb\uarttx.v' (VERI-1482)
+E:\intern\project\periplex_apb\uarttx.v(11): WARNING: parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\periplex_apb\uarttx.v(12): WARNING: parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\periplex_apb\uarttx.v(13): WARNING: parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\periplex_apb\uarttx.v(14): WARNING: parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\periplex_apb\uarttx.v(15): WARNING: parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'E:\intern\project\periplex_apb\top.v' (VERI-1482)
+E:\intern\project\periplex_apb\top.v(61): WARNING: data object 'mm' is already declared (VERI-2170)
+E:\intern\project\periplex_apb\top.v(43): INFO: previous declaration of 'mm' is from here (VERI-1967)
+E:\intern\project\periplex_apb\top.v(61): WARNING: second declaration of 'mm' is ignored (VERI-1329)
+E:\intern\project\periplex_apb\top.v(61): WARNING: 'mm' was previously declared with a range (VERI-1204)
+INFO: Analysis took 0.0114532 seconds.
+INFO: 	Analysis took 0.015625 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.06 MB, end = 55.14 MB, delta = 0.08 MB
+INFO: 	Analysis peak virtual memory usage = 55.148 MB
+INFO: Analysis resident set memory usage: begin = 58.608 MB, end = 59.568 MB, delta = 0.96 MB
+INFO: 	Analysis peak resident set memory usage = 59.568 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+E:\intern\project\periplex_apb\top.v(1): INFO: compiling module 'top' (VERI-1018)
+E:\intern\project\periplex_apb\encodec.v(1): INFO: compiling module 'encodec' (VERI-1018)
+E:\intern\project\periplex_apb\encodec.v(135): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+E:\intern\project\periplex_apb\encodec.v(190): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+E:\intern\project\periplex_apb\apbmaster.v(1): INFO: compiling module 'apb_master' (VERI-1018)
+E:\intern\project\periplex_apb\apbslave.v(1): INFO: compiling module 'apb_slave' (VERI-1018)
+E:\intern\project\periplex_apb\apbslave.v(59): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+E:\intern\project\periplex_apb\ctrl_uart.v(1): INFO: compiling module 'ctrl_uart' (VERI-1018)
+E:\intern\project\periplex_apb\ctrl_uart.v(59): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\intern\project\periplex_apb\ctrl_uart.v(82): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\intern\project\periplex_apb\ctrl_uart.v(105): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\intern\project\periplex_apb\uarttx.v(1): INFO: compiling module 'uart_tx' (VERI-1018)
+E:\intern\project\periplex_apb\uarttx.v(47): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+E:\intern\project\periplex_apb\uarttx.v(62): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+E:\intern\project\periplex_apb\uarttx.v(71): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+E:\intern\project\periplex_apb\uarttx.v(88): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+E:\intern\project\periplex_apb\top.v(81): WARNING: input port 'slv_prdata[31]' remains unconnected for this instance (VDB-1053)
+INFO: Elaboration took 0.121553 seconds.
+INFO: 	Elaboration took 0 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 55.14 MB, end = 60.656 MB, delta = 5.516 MB
+INFO: 	Elaboration peak virtual memory usage = 60.656 MB
+INFO: Elaboration resident set memory usage: begin = 59.58 MB, end = 65.732 MB, delta = 6.152 MB
+INFO: 	Elaboration peak resident set memory usage = 65.732 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'E:/intern/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+E:/intern/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(71): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(87): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(99): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(107): INFO: compiling module 'EFX_MULT' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(142): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(198): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(251): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(304): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(364): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(436): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(541): INFO: compiling module 'RAMB5' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(603): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(695): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(796): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(926): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0156509 seconds.
+INFO: 	Reading Mapping Library took 0 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 61.552 MB, end = 61.552 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 61.552 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 66.868 MB, end = 66.876 MB, delta = 0.008 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 66.88 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'select_67' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\intern\project\periplex_apb\encodec.v:229)
+[EFX-0031 INFO] 'select_68' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\intern\project\periplex_apb\encodec.v:229)
+[EFX-0031 INFO] 'select_69' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\intern\project\periplex_apb\encodec.v:229)
+[EFX-0031 INFO] 'select_70' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\intern\project\periplex_apb\encodec.v:229)
+[EFX-0031 INFO] 'select_71' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\intern\project\periplex_apb\encodec.v:229)
+[EFX-0031 INFO] 'select_72' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\intern\project\periplex_apb\encodec.v:229)
+[EFX-0031 INFO] 'select_84' instance is encountered with don't-care(1'bx) input, rewiring to GND. (E:\intern\project\periplex_apb\encodec.v:229)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "encodec" begin
+[EFX-0200 WARNING] Removing redundant signal : paddr[31]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[30]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[29]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[28]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[27]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[26]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[25]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[24]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[23]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[22]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[21]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[20]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[19]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[18]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[17]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[16]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[15]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[14]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[13]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : paddr[12]. (E:\intern\project\periplex_apb\apbslave.v:7)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[31]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[30]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[29]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[28]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[27]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[26]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[25]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[24]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[23]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[22]'. (E:\intern\project\periplex_apb\top.v:81)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "encodec" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb_master" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb_master" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb_slave" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb_slave" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ctrl_uart" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ctrl_uart" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 52 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network clock_w with 307 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 771 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 6s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 357, ed: 1242, lv: 5, pw: 659.82
+[EFX-0000 INFO] ... LUT mapping end (Real time : 2s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 247 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port i_Data_Frame[46] is unconnected and will be removed
+WARNING: Input/Inout Port i_Data_Frame[45] is unconnected and will be removed
+WARNING: Input/Inout Port i_Data_Frame[44] is unconnected and will be removed
+WARNING: Input/Inout Port i_Data_Frame[43] is unconnected and will be removed
+WARNING: Input/Inout Port i_Data_Frame[42] is unconnected and will be removed
+WARNING: Input/Inout Port i_Data_Frame[41] is unconnected and will be removed
+INFO: Found 6 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.0377725 seconds.
+INFO: 	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 82.156 MB, end = 82.156 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 104.768 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 88.752 MB, end = 88.796 MB, delta = 0.044 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 108.336 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'top' to Verilog file 'E:/intern/project/periplex_apb/outflow/periplex_apb.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	208
+[EFX-0000 INFO] EFX_FF          : 	176
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
